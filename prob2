@@ -1,0 +1,49 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	double tempA, tempB, tempC;
+	int i;
+	
+	cout <<  "Weekly Temperatures of Province A, B, and C " << endl;
+	cout <<  endl;
+	
+	
+
+	int provinceA[7];
+		for (i = 1; i <= 7; i++)
+			{
+				cout << "Province A Day " << i << " = ";
+				cin >> provinceA[i];
+			}
+	
+	cout << endl;
+	
+	
+	
+
+	int provinceB[7];
+		for (i = 1; i <= 7; i++)
+			{
+				cout << "Province B Day " << i << " = ";
+				cin >> provinceB[i];
+			}	
+		
+	cout << endl;
+	
+	
+	
+	
+	int provinceC[7];
+		for (i = 1; i <= 7; i++)
+			{
+				cout << "Province C Day " << i << " = ";
+				cin >> provinceC[i];
+			}	
+			
+	_getch();
+	return 0;
+}
